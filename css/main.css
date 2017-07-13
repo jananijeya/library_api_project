@@ -1,0 +1,172 @@
+/****** DEFAULT CSS */
+
+html {
+    box-sizing: border-box;
+    font-size: 13px;
+    background-color: #00a7b7; /*peacock blue */
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+.page-wrapper {
+    max-width: 980px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 4em 0 4em;
+    background-color: white;
+}
+
+h1{
+    margin-top: 0;
+}
+
+/***** Header styling ****/
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+}
+
+
+
+/***** Link styling */
+
+a {
+    color: #3d5ba6;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+
+.holiday_style{
+    color: #00a7b7;
+}
+
+
+/****** Hiding and showing lists */
+
+.hidden {
+    display: none;
+    clear: both;
+    padding: 1em;
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+}
+
+.hidden p {
+  /*  margin-bottom: 0;*/
+    font-style: italic;
+    font-weight: bold;
+}
+
+/*.hidden2 {*/
+    /*display: none;*/
+/*}*/
+
+.show {
+    display: block;
+}
+
+.stash {
+    display: none;
+}
+
+#weather_quote{
+    text-transform: capitalize;
+}
+
+.weather_msg{
+    font-style: italic;
+}
+
+/***** WEATHER ICON DIV */
+
+.weather_icon{
+    /*float: left;*/
+    width: 30%;
+    padding: 2em;
+    background-color: #A3CCFF;
+    border-radius: 30px;
+    margin: 2em;
+}
+
+/*
+.weather_deets{
+    float: right;
+}
+*/
+
+/******** ONE LIBRARY'S INFO*********/
+
+.library-info{
+    width: 35%;
+    float: right;
+    background-color: #CBE6A3; /*peacock blue */
+    /*display: inline-block;*/
+    padding: 3em;
+    border-radius: 20px;
+    margin-top: 2em;
+}
+
+
+
+/******** LIBRARY LIST *********/
+#library_list{
+    display: inline-block;
+    padding: 2em;
+    clear: both;
+    -moz-column-count: 2;
+    -moz-column-gap: 10px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 10px;
+    column-count: 2;
+    column-gap: 20px;
+}
+
+
+
+
+
+/***** MAP ****/
+
+#map{
+    display: inline-block;
+    margin: 2em;
+    clear: right;
+}
+
+/***** LIBRARY DIV */
+
+.onelibrary {
+}
+
+/***** FOOTER ****/
+
+footer {
+    /*clear: both;*/
+    background-color: #3d5ba6; /*navy*/
+    height: 60px;
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    padding: 1em;
+    margin: 0;
+}
